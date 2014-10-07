@@ -1,0 +1,25 @@
+{
+  "name": "event-timeline",
+  "version": "0.0.1",
+  "description": "Generate timelines for an event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabranr/event-timeline.git"
+  },
+  "keywords": [
+    "event",
+    "timeline",
+    "history",
+    "JavaScript"
+  ],
+  "author": "Jabran Rafique <hello@jabran.me>",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/jabranr/event-timeline/issues"
+  },
+  "homepage": "https://github.com/jabranr/event-timeline"
+}
