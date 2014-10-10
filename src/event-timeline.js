@@ -68,9 +68,9 @@ ETL.Event = (function()	{
 	
 	function Event( title, type, location ) {
 		if (arguments.length < 0 || title === null) 
-			this.title = '';
-		else
 			throw new Error('A title is required.');
+		else
+			this.title = title;
 
 		if (arguments.length < 1 || type === null) 
 			this.type = '';

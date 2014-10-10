@@ -1,6 +1,6 @@
 {
   "name": "event-timeline",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generate timelines for an event",
   "main": "src/event-timeline.js",
   "scripts": {
