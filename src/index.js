@@ -60,6 +60,11 @@
  */
 
 ETL.Event = (function()	{
+
+
+	/**
+	 * Default Event class
+	 */
 	
 	function Event( title, type, location ) {
 		if (arguments.length < 0 || title === null) 
@@ -80,8 +85,18 @@ ETL.Event = (function()	{
 		return this;
 	};
 
+	/**
+	 * An array to store collection of Milestones 
+	 * associated with Event
+	 */
+	
 	Event.prototype.Milestones = [];
 
+
+	/**
+	 * Create a Milestone for an Event and associate it
+	 */
+	
 	Event.prototype.Milestone = function( title, description, date, featured, media ) {
 		if (arguments.length < 0 || title === null)
 			this.title = '';
@@ -112,4 +127,5 @@ ETL.Event = (function()	{
 	};
 
 	return Event;
+
 })();
