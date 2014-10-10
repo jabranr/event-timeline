@@ -70,7 +70,7 @@ ETL.Event = (function()	{
 		if (arguments.length < 0 || title === null) 
 			this.title = '';
 		else
-			this.title = title;
+			throw new Error('A title is required.');
 
 		if (arguments.length < 1 || type === null) 
 			this.type = '';

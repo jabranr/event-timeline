@@ -1,0 +1,24 @@
+{
+  "name": "event-timeline",
+  "version": "0.0.3",
+  "homepage": "https://github.com/jabranr/event-timeline",
+  "authors": [
+    "Jabran Rafique <hello@jabran.me>"
+  ],
+  "description": "Generate timelines for events with this small JavaScript library.",
+  "main": "src/event-timeline.min.js",
+  "keywords": [
+    "Event",
+    "Timeline",
+    "Milestones",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

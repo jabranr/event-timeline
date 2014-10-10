@@ -15,15 +15,15 @@ module.exports = function(grunt) {
 				banner: '/*! <%= pkg.name %> | v<%= pkg.version %> | <%= pkg.author %> | <%= pkg.license %> | <%= pkg.homepage %>  */ \n\n'
 			},
 			build: {
-				src: 'src/index.js',
-				dest: 'src/index.min.js'
+				src: 'src/event-timeline.js',
+				dest: 'src/event-timeline.min.js'
 			}
 		},
 
 		// watch tasks
 		watch: {
 			script: {
-				files: ['src/index.js'],
+				files: ['src/event-timeline.js'],
 				tasks: ['uglify'],
 				options: {
 					spawn: false

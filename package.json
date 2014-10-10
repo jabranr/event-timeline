@@ -1,8 +1,8 @@
 {
   "name": "event-timeline",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate timelines for an event",
-  "main": "src/index.js",
+  "main": "src/event-timeline.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
