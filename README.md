@@ -40,3 +40,8 @@ event.Milestones.push(milestone);
 
 console.log( event.Milestones );
 ```
+
+# License
+MIT License - &copy; Jabran Rafique 2014
+
+[![Analytics](https://ga-beacon.appspot.com/UA-50688851-1/event-timeline)](https://github.com/igrigorik/ga-beacon)
